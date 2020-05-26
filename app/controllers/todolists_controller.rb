@@ -10,6 +10,7 @@ class TodolistsController < ApplicationController
 
     redirect_to '/top'
   end
+
   private
 
   def list_params
